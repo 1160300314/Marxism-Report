@@ -1,0 +1,141 @@
+\documentclass[11pt,twoside,a4paper]{article}
+\usepackage{fancyhdr}
+\usepackage[UTF8]{ctex}
+\usepackage[centering]{geometry}
+\usepackage{graphicx}
+\usepackage{setspace}
+%\usepackage{listings}
+%\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=black]{hyperref}
+%
+%\usepackage{algorithm}  
+%\usepackage{algorithmicx}  
+%\usepackage{algpseudocode}  
+%\usepackage{amsmath}  
+%\usepackage{graphicx}
+\begin{document}
+	\begin{figure}[h]
+		\centering
+		% Requires \usepackage{graphicx}
+		\includegraphics[width=0.8\textwidth]{graph/logo.png}\\
+	\end{figure}
+\thispagestyle{empty}
+\begin{center}
+	\doublespacing
+	\huge 当代中国医疗的深度思考
+	
+	\Large 1160300329\ 黄海 
+	
+	\Large 1160300308\ 干寅雷
+	
+	\Large 1160300311\ 汤嘉琦
+	
+	\Large 1160300312\ 靳贺霖
+	
+	\Large 1160300314\ 朱明彦
+\end{center}
+	\singlespacing
+%	\title{当代中国医疗的深度思考}
+%	
+%	\author{1160300329\ 黄海\\1160300308\ 干寅雷\\1160300311\ 汤嘉琦\\
+%		1160300312\ 靳贺霖\\1160300314\ 朱明彦\\1603003班}
+%	\author{Paolo Ienne\\ 
+%		Swiss Federal Institute of Technology\\ Microcomputing Laboratory \\ IN-F 
+%		Ecublens, 1015 Lausanne, Switzerland\\ Paolo.Ienne@di.epfl.ch\\ 
+%		% For a paper whose authors are all at the same institution, 
+%		% omit the following lines up until the closing ``}''. 
+%		% Additional authors and addresses can be added with ``\and'', 
+%		% just like the second author. 
+%		\and 
+%		Second Author\\ 
+%		Institution2\\ 
+%		First line of institution2 address\\ Second line of institution2 address\\ 
+%		SecondAuthor@institution2.com\\ 
+%	} 
+	\newpage
+	\pagestyle{fancy}
+	\thispagestyle{fancy}
+	\lhead{当代中国医疗的深度思考}
+	\chead{}
+	\rhead{Harbin Institute of Technology}
+	\lfoot{}
+	\cfoot{}
+	\rfoot{\thepage}
+%	\maketitle
+	
+	\newpage
+	\begin{center}
+	\textbf{Abstract}	
+	\end{center}
+		对于当前的中国医疗，不可否认其中存在问题。在下面的讨论中，我们将对于中国医疗的价格高低，通过对比的方式利用辩证法的原理，进行分析。合理看待中国医疗价格中存在的问题，并探寻问题产生背后的原因。
+	\begin{flushleft}
+	\textbf{Keyword:中国,\ 医疗问题,\ 医患关系,\ 医疗资源,\ 医疗成本,\ 医疗保险,\ 医疗改革}
+	\end{flushleft}
+
+	\newpage
+	
+	\tableofcontents
+	
+	\newpage
+	
+	\section{中国医疗成本}
+		\subsection{简述}
+		对于中国医疗成本的高低，如果我们仅仅针对中国的情况纵向来看，有失其完整性。基于此，我们使用辩证法的思想，通过对比的方式，将中国与发展中国家代表（印度）以及发达国家代表（美国）进行横向的比较。通过这种方式，进而来说明中国医疗成本在世界中的地位和存在的问题。对于医疗问题中的不同方面，如医务人员薪酬方面，医疗器械方面和药品价格三个方面，使用上面的思路进行分析。
+		\subsection{医务人员方面}
+		对于中国的医务人员，先说结论：\textbf{在世界的各个国家之中，属于低收入的医务人员群体}。
+		
+		在这里，我们选取了一个来自中国985院校的医学硕士毕业生（下面简称为“985学生”）作为对比的对象，与中国城镇居民人均收入进行对比。可以发现，985学生的平均收入为$80000$元每年，与其对比的中国的城镇居民的人均收入已经达到了$30000$元每年。
+		
+		对于个例我们只是作为一种说明，下面借用2016年丁香园医生对于中国医务人员薪酬的调查\cite{ref1}来看，中国的医务人员的平均年薪为$85000$元，对比2016年度全国城镇居民人均可支配收入$33616$元\cite{ref2}来看，已经是其3倍左右，我们可以说医务人员的收入不低，进而我们可以说医疗成本至少不低，因为治病的医生的工资成本很高。但是由于没有很好的中位数数据，可能有不少被平均的情况，我们只能得到以上的结论。
+		\begin{figure}[htb]
+			\centering
+			% Requires \usepackage{graphicx}
+			\includegraphics{graph/DingXiangyuan.png}\\
+			\caption{丁香园2016年中国医务人员薪酬调查}
+		\end{figure}
+	
+		我们可以看到美国的医生平均收入已经达到了$28$万美元以上\cite{ref3}，相比美国人均年收入$42372$美元，已经超出6倍有余，这是中国医生所远远不能与之相比的。
+		
+		
+		再来看印度，由于数据的问题我们不能找到具体的印度医生收入的直接证明，但是相信看过生活大爆炸的同学都会对Raj的父亲的收入有着极深的印象。根据较少数据规模的统计我们可以知道，在印度医生的工资分布比较分散，在印度，一个家庭医生的收入约为16万到126万卢比不等，并且由于印度允许医生在医院之外行医所以工资更加难以计算。我们可以参考的另一个数据是在印度医学院毕业的本科生的薪资一般为1000美元一个月，对比印度的人均年收入1500美元左右，也称得上是高收入人群了。
+		
+		\begin{figure}[htb]
+			\centering
+			% Requires \usepackage{graphicx}
+			\includegraphics[width=0.8\textwidth]{graph/20160402203312581.png}\\
+			\caption{2016年Medscape医生收入调查}
+		\end{figure}
+		
+		另外中国医生除了薪资不高还有这些问题，工作强度大，收入满意度低还有升职加薪困难。这些低收入高压力之间的矛盾让很多医生都不堪重负。
+		
+		可以说无论是印度还是美国，医生的社会地位和薪资状况在其社会环境中都出于中上地位相比，中国的医生真的可以说是“价廉”了，换句话说医生的薪资很低，中国的医疗成本应该不高。
+		
+		\subsection{医疗器械方面}
+		这个方面我们结合着来看，以心血管支架为例，某种血管支架在我国现行价格为$1.8$万元左右人民币，而产地美国却是$8000$元人民币。中间超过一倍有余的价格都是来自于经销商的层层剥皮。这仅仅是一个方面，同样跟血管支架有着类似情况的医疗器械，小到一个几百美元的血管钳，上到单机价格$2000$万人民币的达芬奇手术机器人，中国无不使用远高于国外价格的来进口，而不能用国产设备代替。
+		
+		也就是中国无法打破国外的技术壁垒，只能用远低于发达国家国民收入的百姓的辛苦钱去承担与发达国家百姓相同甚至更高的医疗器械费用。
+		
+		\subsection{药品方面}
+		中国是有着几十年不涨价的药物，但是近些年来不断出现的出国去买靶向药的情况屡有发生，这与中国国产没有靶向药不无关系。做一个直接的价格对比“特罗凯（抗癌药）在2016年8月份宣布降价，但仍要$4000$多元一盒。
+		
+		又如，和特罗凯同属抗癌靶向药的格列卫，国内正版的价格仍要$2$万多元一盒，仿制药物$3000$多元，而印度版格列卫一盒只需$200$多元。”
+		
+		虽然现在有了医疗报销的体系，在部分发达的地区报销格列卫的比例超过$90\%$，但仍有$2000$多元一盒的高昂价格。这相差十几倍的价格仍然需要中国患者来承担，这些对比我们可以坚定地说中国的医疗成本很高。
+		
+		\subsection{简要分析}
+		结合三个方面辩证来看，我们不能直接说中国的医疗成本很高，因为中国医生收入真的不高；也不能说中国的医疗成本低，因为无论药品或是器械，国内的价格远高于国外。
+		
+		那么我们只好用事实进行佐证，在现在，即使有着大病保险和医疗保险的极高覆盖，但对于很多的中国居民“一病回到解放前”真的是一种普遍情况，所以我们可以认为中国的医疗成本确实很高，这种高不是来自于平时的头疼脑热所用掉的那些医保以内的药物，而是当真正有着严重疾病发生的时候那种高昂的医疗成本造成的。
+		
+		\begin{thebibliography}{99}  
+			\bibitem{ref1}丁香医生.2016 丁香园医生薪酬报告.
+			
+			http://www.dxy.cn/bbs/topic/37052139?source=rss
+			\bibitem{ref2}国家统计局.2016年度全国居民人均可支配收入.
+			
+			http://data.stats.gov.cn/easyquery.htm?cn=C01\&zb=A0A01\&sj=2016 
+			
+			\bibitem{ref3}Medscape.PHYSICIAN COMPENSATION REPORT 2016.
+			
+			http://www.medsci.cn/article/show\_article.do?id=1d356595875
+		\end{thebibliography} 
+\end{document}
